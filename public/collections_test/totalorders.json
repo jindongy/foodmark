@@ -1,0 +1,1344 @@
+{ 
+    "_id" : "cwCgLXeoMHiWqtnfj", 
+    "orderID" : NumberInt(1), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(900), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581da162e3720b19200590e2"), 
+    "orderID" : NumberInt(1), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(900), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581da163e3720b19200590e3"), 
+    "orderID" : NumberInt(1), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(900), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581da164e3720b19200590e4"), 
+    "orderID" : NumberInt(1), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(900), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581da165e3720b19200590e5"), 
+    "orderID" : NumberInt(1), 
+    "name" : "Chocolate Shake", 
+    "type" : "Mains", 
+    "time" : NumberInt(900), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581da166e3720b19200590e6"), 
+    "orderID" : NumberInt(1), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(900), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581daca2e3720b19200590ee"), 
+    "orderID" : NumberInt(2), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(1000), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581daca2e3720b19200590ef"), 
+    "orderID" : NumberInt(2), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(1000), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581daca2e3720b19200590f0"), 
+    "orderID" : NumberInt(2), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1000), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581daca2e3720b19200590f1"), 
+    "orderID" : NumberInt(2), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1000), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581dacdee3720b19200590f2"), 
+    "orderID" : NumberInt(2), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1000), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581dace4e3720b19200590f3"), 
+    "orderID" : NumberInt(2), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1000), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581dad05e3720b19200590f4"), 
+    "orderID" : NumberInt(2), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1000), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581dad45e3720b19200590f5"), 
+    "orderID" : NumberInt(3), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1100), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581dad45e3720b19200590f6"), 
+    "orderID" : NumberInt(3), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1100), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581dad45e3720b19200590f7"), 
+    "orderID" : NumberInt(3), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1100), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581dadb6e3720b19200590f8"), 
+    "orderID" : NumberInt(3), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(1100), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581dadb6e3720b19200590f9"), 
+    "orderID" : NumberInt(3), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(1100), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581dadb6e3720b19200590fa"), 
+    "orderID" : NumberInt(3), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(1100), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581dadb6e3720b19200590fb"), 
+    "orderID" : NumberInt(3), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1100), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581dadb6e3720b19200590fc"), 
+    "orderID" : NumberInt(3), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1100), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581dadc1e3720b19200590fd"), 
+    "orderID" : NumberInt(3), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(1100), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581dadc1e3720b19200590fe"), 
+    "orderID" : NumberInt(3), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(1100), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581dadc1e3720b19200590ff"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(1200), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581dadc1e3720b1920059100"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1200), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581dadc1e3720b1920059101"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1200), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581dae7fe3720b1920059102"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Chocolate Shake", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1200), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581daf00e3720b1920059103"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Chocolate Shake", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1200), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581daf42e3720b1920059104"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(1200), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581daf42e3720b1920059105"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1200), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581daf42e3720b1920059106"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1200), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581daf42e3720b1920059107"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1200), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581daf42e3720b1920059108"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1200), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581daf42e3720b1920059109"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1200), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581daf42e3720b192005910a"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1200), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581daf42e3720b192005910b"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1200), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581daf42e3720b192005910c"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Pink Lemonade", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1200), 
+    "price" : 3.0
+}
+{ 
+    "_id" : ObjectId("581db714e3720b192005910d"), 
+    "orderID" : NumberInt(4), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1200), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581db714e3720b192005910e"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1300), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581db714e3720b192005910f"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1300), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581db714e3720b1920059110"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Lemon Cake Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1300), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581db714e3720b1920059111"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1300), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581db714e3720b1920059112"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Pink Lemonade", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1300), 
+    "price" : 3.0
+}
+{ 
+    "_id" : ObjectId("581db74ce3720b1920059113"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1300), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581db74ce3720b1920059114"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Chocolate Shake", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1300), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581db74ce3720b1920059115"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Chocolate Shake", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1300), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581db74ce3720b1920059116"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1300), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581db74ce3720b1920059117"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1300), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581db74ce3720b1920059118"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1300), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581db74ce3720b1920059119"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1300), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581dbf4ae3720b192005911a"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(1300), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581dbf4ce3720b192005911b"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1300), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581dbf4de3720b192005911c"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1300), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581dbf4ee3720b192005911d"), 
+    "orderID" : NumberInt(5), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1300), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581dbf4ee3720b192005911e"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1400), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581dbf4fe3720b192005911f"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1400), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581dbfc1e3720b1920059120"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1400), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581dbfc1e3720b1920059121"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1400), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581dbfc1e3720b1920059122"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Lemon Cake Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1400), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581dbfc1e3720b1920059123"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Pink Lemonade", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1400), 
+    "price" : 3.0
+}
+{ 
+    "_id" : ObjectId("581dbfc1e3720b1920059124"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1400), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581dbfc1e3720b1920059125"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1400), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581dbfc1e3720b1920059126"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1400), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581dbfc1e3720b1920059129"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Pink Lemonade", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1400), 
+    "price" : 3.0
+}
+{ 
+    "_id" : ObjectId("581dc02ee3720b192005912a"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(1400), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581dc02ee3720b192005912b"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(1400), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581dc02ee3720b192005912c"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1400), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581dc02ee3720b192005912d"), 
+    "orderID" : NumberInt(6), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(1400), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581de013e3720b192005912e"), 
+    "orderID" : NumberInt(7), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1500), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de013e3720b192005912f"), 
+    "orderID" : NumberInt(7), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1500), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de013e3720b1920059130"), 
+    "orderID" : NumberInt(7), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1500), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de013e3720b1920059131"), 
+    "orderID" : NumberInt(7), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(1500), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581de013e3720b1920059132"), 
+    "orderID" : NumberInt(7), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(1500), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581de013e3720b1920059133"), 
+    "orderID" : NumberInt(7), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(1500), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581de013e3720b1920059134"), 
+    "orderID" : NumberInt(7), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1500), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de013e3720b1920059135"), 
+    "orderID" : NumberInt(7), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1500), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de053e3720b1920059136"), 
+    "orderID" : NumberInt(7), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1500), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581de053e3720b1920059137"), 
+    "orderID" : NumberInt(7), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1500), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581de053e3720b1920059138"), 
+    "orderID" : NumberInt(8), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1600), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581de053e3720b1920059139"), 
+    "orderID" : NumberInt(8), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1600), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de053e3720b192005913a"), 
+    "orderID" : NumberInt(8), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1600), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de053e3720b192005913b"), 
+    "orderID" : NumberInt(8), 
+    "name" : "Lemon Cake Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1600), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de053e3720b192005913c"), 
+    "orderID" : NumberInt(8), 
+    "name" : "Chocolate Shake", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1600), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de053e3720b192005913d"), 
+    "orderID" : NumberInt(8), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1600), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de053e3720b192005913e"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1700), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581de053e3720b192005913f"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1700), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b1920059140"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1700), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b1920059141"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1700), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b1920059142"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Lemon Cake Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1700), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b1920059143"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Pink Lemonade", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1700), 
+    "price" : 3.0
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b1920059144"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1700), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b1920059145"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1700), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b1920059146"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1700), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b1920059147"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Pink Lemonade", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1700), 
+    "price" : 3.0
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b1920059148"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(1700), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b1920059149"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(1700), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b192005914a"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1700), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b192005914b"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(1700), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b192005914c"), 
+    "orderID" : NumberInt(9), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1700), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de0bbe3720b192005914d"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1800), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b192005914e"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(1800), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b192005914f"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(1800), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b1920059150"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(1800), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b1920059151"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1800), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b1920059152"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1800), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b1920059153"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1800), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b1920059154"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1800), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b1920059155"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1800), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b1920059156"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1800), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b1920059157"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1800), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b1920059158"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1800), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b1920059159"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(1800), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b192005915a"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(1800), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b192005915b"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(1800), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581de11ee3720b192005915c"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1800), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de19be3720b192005915d"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Pink Lemonade", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1800), 
+    "price" : 3.0
+}
+{ 
+    "_id" : ObjectId("581de19ce3720b192005915e"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Chocolate Shake", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1800), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de19ee3720b192005915f"), 
+    "orderID" : NumberInt(10), 
+    "name" : "Chocolate Shake", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1800), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de19fe3720b1920059160"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Pink Lemonade", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1900), 
+    "price" : 3.0
+}
+{ 
+    "_id" : ObjectId("581de23be3720b1920059161"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1900), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de23be3720b1920059162"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1900), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de23be3720b1920059163"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1900), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de23be3720b1920059164"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(1900), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581de23be3720b1920059165"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1900), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de23be3720b1920059166"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1900), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de23be3720b1920059167"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(1900), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de23be3720b1920059168"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(1900), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581de23be3720b1920059169"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(1900), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581de23be3720b192005916a"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(1900), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581de23be3720b192005916b"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1900), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de23be3720b192005916c"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Pink Lemonade", 
+    "type" : "Beverages", 
+    "time" : NumberInt(1900), 
+    "price" : 3.0
+}
+{ 
+    "_id" : ObjectId("581de29de3720b192005916d"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(1900), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b192005916e"), 
+    "orderID" : NumberInt(11), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(1900), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b192005916f"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(2000), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b1920059170"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(2000), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b1920059171"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(2000), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b1920059172"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(2000), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b1920059173"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(2000), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b1920059174"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(2000), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b1920059175"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Chocolate Shake", 
+    "type" : "Beverages", 
+    "time" : NumberInt(2000), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b1920059176"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Pink Lemonade", 
+    "type" : "Beverages", 
+    "time" : NumberInt(2000), 
+    "price" : 3.0
+}
+{ 
+    "_id" : ObjectId("581de29de3720b1920059177"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(2000), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b1920059178"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(2000), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b1920059179"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(2000), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b192005917a"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(2000), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de29de3720b192005917b"), 
+    "orderID" : NumberInt(12), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(2000), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581de310e3720b192005917c"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(2100), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b192005917d"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(2100), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b192005917e"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(2100), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b192005917f"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(2100), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b1920059180"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(2100), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b1920059181"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(2100), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b1920059182"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(2100), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b1920059183"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(2100), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b1920059184"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(2100), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b1920059185"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(2100), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b1920059186"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(2100), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b1920059187"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(2100), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de310e3720b1920059188"), 
+    "orderID" : NumberInt(13), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(2100), 
+    "price" : 23.0
+}
+{ 
+    "_id" : ObjectId("581de393e3720b1920059189"), 
+    "orderID" : NumberInt(14), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(2200), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de393e3720b192005918a"), 
+    "orderID" : NumberInt(14), 
+    "name" : "Caramel Pie Slice", 
+    "type" : "Dessert", 
+    "time" : NumberInt(2200), 
+    "price" : 3.5
+}
+{ 
+    "_id" : ObjectId("581de393e3720b192005918b"), 
+    "orderID" : NumberInt(14), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(2200), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de393e3720b192005918c"), 
+    "orderID" : NumberInt(14), 
+    "name" : "Tandori Chicken", 
+    "type" : "Mains", 
+    "time" : NumberInt(2200), 
+    "price" : 10.5
+}
+{ 
+    "_id" : ObjectId("581de393e3720b192005918d"), 
+    "orderID" : NumberInt(14), 
+    "name" : "Carrot Cake", 
+    "type" : "Mains", 
+    "time" : NumberInt(2200), 
+    "price" : 6.5
+}
+{ 
+    "_id" : ObjectId("581de393e3720b192005918e"), 
+    "orderID" : NumberInt(14), 
+    "name" : "Kimchi Fried Rice", 
+    "type" : "Mains", 
+    "time" : NumberInt(2200), 
+    "price" : 8.5
+}
+{ 
+    "_id" : ObjectId("581de393e3720b192005918f"), 
+    "orderID" : NumberInt(14), 
+    "name" : "Fried Beancurd", 
+    "type" : "Mains", 
+    "time" : NumberInt(2200), 
+    "price" : 4.5
+}
+{ 
+    "_id" : ObjectId("581de393e3720b1920059190"), 
+    "orderID" : NumberInt(14), 
+    "name" : "Red Velvet Cupcake", 
+    "type" : "Dessert", 
+    "time" : NumberInt(2200), 
+    "price" : 2.5
+}
+{ 
+    "_id" : ObjectId("581de393e3720b1920059191"), 
+    "orderID" : NumberInt(14), 
+    "name" : "Wagyu Beef", 
+    "type" : "Mains", 
+    "time" : NumberInt(2200), 
+    "price" : 23.0
+}

@@ -1,0 +1,35 @@
+{ 
+    "_id" : "WYAAB4HeEAFmQfQGL", 
+    "username" : "foodmark", 
+    "password" : "ilovefoodmark", 
+    "type" : "admin", 
+    "login" : false
+}
+{ 
+    "_id" : "iMXb57JaLR2BjaZtu", 
+    "username" : "Dong", 
+    "password" : "ilovefoodmark", 
+    "type" : "member", 
+    "login" : false
+}
+{ 
+    "_id" : ObjectId("58205acd3f9c2532a431e7c2"), 
+    "username" : "Kenn", 
+    "password" : "ilovefoodmark", 
+    "type" : "member", 
+    "login" : false
+}
+{ 
+    "_id" : ObjectId("58205ae33f9c2532a431e7c3"), 
+    "username" : "Mark", 
+    "password" : "ilovefoodmark", 
+    "type" : "member", 
+    "login" : false
+}
+{ 
+    "_id" : ObjectId("58205af73f9c2532a431e7c4"), 
+    "username" : "Ben", 
+    "password" : "ilovefoodmark", 
+    "type" : "member", 
+    "login" : false
+}

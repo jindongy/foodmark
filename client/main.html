@@ -1,0 +1,704 @@
+
+<head>
+    <title>Food Mark</title>
+</head>
+
+<body>
+</body>
+
+
+
+
+<template name="mainLayout">
+
+  <header> {{>Template.dynamic template=header}} </header>
+
+    {{>Template.dynamic template=top}}
+    {{>Template.dynamic template=content}}
+
+    <br>
+
+    {{>Template.dynamic template=footer}}
+</template>
+
+<template name= "loginForm">
+  <div class="col-sm-5 padding-centre"> 
+    <div class="form-group row">
+      <label for="example-email-input" class="col-xs-10 col-form-label">Member Login</label>
+      <div class="col-xs-10">
+        <form class = "login">
+          <input class="form-control" type="text" name = "Username" placeholder="Member Username">
+          <input class="form-control" type="text" name = "Password" placeholder="Member Password">
+          <!-- <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> Remember me
+            </label>
+          </div> -->
+          <button type="submit" class="btn btn-default get">Sign In</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>
+
+<template name = "top">
+  <header id="header"><!--header-->
+    <div class="header-middle"><!--header-middle-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="logo pull-left">
+              <a href="/dashboard"><img src="images/home/logo.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-sm-8">
+            <div class="shop-menu pull-right">
+              <ul class="nav navbar-nav">
+                {{#if isCustomer}}
+                <li> <div class = "checkouting"> 
+                      <a href = #> <i class="fa fa-crosshairs"></i> Checkout </a></div> </li>
+                <li><div class = "cart"> 
+                    <a href = #><i class="fa fa-shopping-cart"></i> Cart</a></div> </li>
+                {{/if}}
+                {{#if isLogin}}
+                <li><div class = "logout"> 
+                     <a href = #><i class="fa fa-lock"></i>Logout</a></div> </li>
+                {{/if}}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--/header-middle-->
+
+    {{#if isLogout}}
+    <div class="container">
+    {{> loginForm}}
+    </div>
+    {{/if}}
+
+    <div class="header-bottom"><!--header-bottom-->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="mainmenu pull-left">
+              <ul class="nav navbar-nav collapse navbar-collapse">
+                {{#if isMember}}
+                <li><a href="/dashboard">Dashboard</a></li>
+                {{/if}}
+                {{#if isAdmin}}
+                <li><a href="/admin_dashboard">Dashboard</a></li>
+                {{/if}}
+                <li class="dropdown"><a>Menu<i class="fa fa-angle-down"></i></a>
+                                <ul role="menu" class="sub-menu">
+                                  <li><a href="/food">Mains</a></li>
+                                  <li><a href="/drinks">Drinks</a></li>
+                                  <li><a href="/desserts">Desserts</a></li>
+                                </ul>
+                </li> 
+                {{#if isMember}}
+                <li><div class = "checkouting"><a href="">Checkout</a></div></li>
+                {{/if}}
+                {{#if isAdmin}}
+                <li><a href="/statistics">Statistics</a></li>
+                {{/if}}
+              </ul>
+            </div>
+          </div>            
+        </div>
+      </div>
+    </div><!--/header-bottom-->
+  </header><!--/header-->
+</template>
+
+<template name="advertisement">
+  <section id><!--slider-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="slider1-carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#slider1-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#slider1-carousel" data-slide-to="1"></li>
+              <li data-target="#slider1-carousel" data-slide-to="2"></li>
+            </ol>
+            
+            <div class="carousel-inner">
+              <div class="item">
+                <div class="col-sm-6">
+                  <h1><span>Order</span>system</h1>
+                  <h2>Order Made Easy</h2>
+                  <p>We understand that there are just times you want to be left alone when enjoying your own meal. We see the need for you to have your peace and quiet when you want to. Now, from ordering to payment, it can be completely automated without any bother! </p>
+                  <button type="button" class="btn btn-default get">Find out more</button>
+                </div>
+                <div class="col-sm-6">
+                  <img src="images/home/food1.jpeg" class="girl img-responsive" alt="" />
+                </div>
+              </div>
+              <div class="item active">
+                <div class="col-sm-6">
+                  <h1><span>Food</span>mark</h1>
+                  <h2>Bookmark Your Dishes</h2>
+                  <p>Don't remember what you were craving for last month? Feeling adventurous but not sure what you wanted to try the previous time? Now here's a solution you should not miss for avid restaurant goers like you! Sign up for our membership now! </p>
+                  <button type="button" class="btn btn-default get">Sign up now</button>
+                </div>
+                <div class="col-sm-6">
+                  <img src="images/home/food2.jpeg" class="girl img-responsive" alt="" />
+                </div>
+              </div>
+              
+              <div class="item">
+                <div class="col-sm-6">
+                  <h1><span>Tandori</span>Chicken</h1>
+                  <h2>The New Dish in Town</h2>
+                  <p>Who can resist biting into the soft flesh of this piping hot dish served with genuine tandori sauce? Well, I know you can't! Come catch on to the trend that everyone can't resist and get your tandori chicken today!</p>
+                  <button type="button" class="btn btn-default get">Get it now</button>
+                </div>
+                <div class="col-sm-6">
+                  <img src="images/home/food3.jpeg" class="girl img-responsive" alt="" />
+                  <!-- <img src="images/home/pricing.png" class="pricing" alt="" /> -->
+                </div>
+              </div>
+              
+            </div>
+            
+            <a class="left carousel-control" href="#slider1-carousel" role="button" data-slide="prev">
+             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+             <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#slider1-carousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section><!--/slider-->
+</template>
+
+<template name="dashboard">
+  {{#if isMember}}
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="left-sidebar">
+          </div>
+        </div>
+        
+        <div class="col-sm-9 padding-centre">
+          <div class="recommended_items"><!--want2try_items-->
+          <h1 style= "text-align: center">My Personal Dashboard</h1>
+            <h2 class="title text-center">I Want To Try</h2>
+            {{> carousel_wanttotry}}
+          </div><!--/want2try_items-->
+          
+          <div class="favourited_items"><!--favourited_items-->
+            <h2 class="title text-center">My Favourites</h2>
+            {{> carousel_favourite}}
+          </div><!--/favourited_items-->
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  {{/if}}
+</template>
+
+<template name="admin_dashboard">
+  <div class="container">
+    <div class="col-sm-3 padding-centre">
+ 
+      <div class="form-group row">
+        <label for="example-search-input" class="col-xs-30 col-form-label">Search Customer Name</label>
+          <div class="col-xs-30">
+            <form class="findCustomer">
+              <input class = "form-control" type="text" name = "text" placeholder="Type customer name here" />
+            </form>
+          </div>
+        </div>
+        <br>
+      </div>
+      {{#if customer}}
+       <div class="container">
+         <button class="clear btn btn-default get">Clear Search</button>
+        </div>
+      {{/if}}
+    </div>
+
+    <div class="container">
+      {{#if customer}}
+        {{#with customer}}
+          <div class="col-sm-9 padding-centre">
+            <div class="recommended_items"><!--want2try_items-->
+              <h1 style= "text-align: center">{{username}}'s Statistics</h1>
+                <h2 class="title text-center">{{username}}'s "Want To Try" Dishes</h2>
+                  <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      {{#each wanttotryItem}}
+                        <div data-frame = {{@index}} class="item active">
+                          <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                              <div class="single-products">
+                                <div class="productinfo text-center">
+                                  <img src= "{{pic}}" alt="{{name}}"/>
+                                  <h2>{{price}}</h2>
+                                  <p>{{name}}</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      {{/each}}
+                    </div>
+                  </div>
+                </div>
+
+      <div class="favourited_items"><!--favourited_items-->
+        <h2 class="title text-center">{{username}}'s Favourites</h2>
+          <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              {{#each favouriteItem}}
+                <div data-frame = {{@index}} class="item active">
+                  <div class="col-sm-4">
+                    <div class="product-image-wrapper">
+                      <div class="single-products">
+                        <div class="productinfo text-center">
+                          <img src= "{{pic}}" alt="{{name}}"/>
+                          <h2>{{price}}</h2>
+                          <p>{{name}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              {{/each}}
+            </div>
+          </div>
+        </div>
+
+        <div class="favourited_items"><!--favourited_items-->
+          <h2 class="title text-center">{{username}}'s Tried Dishes</h2>
+            <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                {{#each triedItem}}
+                  <div data-frame = {{@index}} class="item active">
+                    <div class="col-sm-4">
+                      <div class="product-image-wrapper">
+                        <div class="single-products">
+                          <div class="productinfo text-center">
+                             {{#with triedItem2}}
+                            <img src= "{{pic}}" alt="{{name}}"/>
+                                <h2>{{price}}</h2>
+                              {{/with}}
+                            <p>{{name}}</p>
+                            <p>Number of times tried: <u><b> {{triedcounter}} </b></u></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {{/each}}
+              </div>
+            </div>
+          </div>
+
+        <div class="favourited_items"><!--favourited_items-->
+          <h2 class="title text-center">{{username}}'s Comments on Dishes</h2>
+            <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                {{#each commentedItem}}
+                  <div data-frame = {{@index}} class="item active">
+                    <div class="col-sm-4">
+                      <div class="product-image-wrapper">
+                        <div class="single-products">
+                          <div class="productinfo text-center">
+                             {{#with commentedItem2}}
+                            <img src= "{{pic}}" alt="{{name}}"/>
+                                <h2>{{price}}</h2>
+                              {{/with}}
+                            <p>{{name}}</p>
+                            <br>
+                            {{#each comments}}
+                              <b><u>{{this}} </u></b>
+                              <br>
+                            {{/each}}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {{/each}}
+              </div>
+            </div>
+          </div>
+
+        </div>
+      {{/with}}
+    {{/if}}
+  </div>
+</template>
+
+<template name = "foodMenu">
+  <section>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-9 padding-right">
+          <div class="features_items"><!--features_items-->
+            <h2 class="title text-center">Mains</h2>
+
+            {{#each foodItem}}
+            <div class="col-sm-4">
+              <div class="product-image-wrapper">
+                <div class="single-products">
+                    <div class="productinfo text-center">
+                      <img src="{{pic}}" alt="{{name}}" />
+                      <h2>{{price}}</h2>
+                      <p>{{name}}</p>
+                      {{#if isFavourited}}
+                        <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Favourited</a>
+                      {{/if}}
+                      {{#if isWantToTry}}
+                        <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Want To Try</a>
+                      {{/if}}
+                    </div>
+                    <div class="product-overlay">
+                      <div class="overlay-content">
+                        <h2>{{price}}</h2>
+                        <p>{{name}}</p>
+                        <div class = "seemore">
+                          <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>See More</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="choose">
+                  <ul class="nav nav-pills nav-justified">
+                    {{#if isFavourited}}
+                    <li><div class = "unfav"> <a href=""><i class="fa fa-plus-square"></i>Unfavourite</a></div></li>
+                    {{else}}
+                    <li><div class = "fav"> <a href=""><i class="fa fa-plus-square"></i>Favourite</a></div></li>
+                    {{/if}}
+                    {{#if isWantToTry}}
+                    <li><div class = "unwant"><a href=""><i class="fa fa-plus-square"></i>Un-Want To Try</a></div></li>
+                    {{else}}
+                    <li><div class = "want"> <a href=""><i class="fa fa-plus-square"></i>Want To Try</a></div></li>
+                    {{/if}}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {{/each}}
+          </div><!--features_items-->
+
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template name = "drinksMenu">
+  <section>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-9 padding-right">
+          <div class="features_items"><!--features_items-->
+            <h2 class="title text-center">Drinks</h2>
+
+            {{#each drinkItem}}
+            <div class="col-sm-4">
+              <div class="product-image-wrapper">
+                <div class="single-products">
+                    <div class="productinfo text-center">
+                      <img src="{{pic}}" alt="{{name}}" />
+                      <h2>{{price}}</h2>
+                      <p>{{name}}</p>
+                      {{#if isFavourited}}
+                        <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Favourited</a>
+                      {{/if}}
+                      {{#if isWantToTry}}
+                        <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Want To Try</a>
+                      {{/if}}
+                    </div>
+                    <div class="product-overlay">
+                      <div class="overlay-content">
+                        <h2>{{price}}</h2>
+                        <p>{{name}}</p>
+                        <div class = "seemore">
+                          <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>See More</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="choose">
+                  <ul class="nav nav-pills nav-justified">
+                    {{#if isFavourited}}
+                    <li><div class = "unfav"> <a href=""><i class="fa fa-plus-square"></i>Unfavourite</a></div></li>
+                    {{else}}
+                    <li><div class = "fav"> <a href=""><i class="fa fa-plus-square"></i>Favourite</a></div></li>
+                    {{/if}}
+                    {{#if isWantToTry}}
+                    <li><div class = "unwant"><a href=""><i class="fa fa-plus-square"></i>Un-Want To Try</a></div></li>
+                    {{else}}
+                    <li><div class = "want"> <a href=""><i class="fa fa-plus-square"></i>Want To Try</a></div></li>
+                    {{/if}}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {{/each}}
+          </div><!--features_items-->
+
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template name = "dessertsMenu">
+  <section>
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-9 padding-right">
+          <div class="features_items"><!--features_items-->
+            <h2 class="title text-center">Desserts</h2>
+
+            {{#each dessertItem}}
+             <div class="col-sm-4">
+              <div class="product-image-wrapper">
+                <div class="single-products">
+                    <div class="productinfo text-center">
+                      <img src="{{pic}}" alt="{{name}}" />
+                      <h2>{{price}}</h2>
+                      <p>{{name}}</p>
+                      {{#if isFavourited}}
+                        <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Favourited</a>
+                      {{/if}}
+                      {{#if isWantToTry}}
+                        <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Want To Try</a>
+                      {{/if}}
+                    </div>
+                    <div class="product-overlay">
+                      <div class="overlay-content">
+                        <h2>{{price}}</h2>
+                        <p>{{name}}</p>
+                        <div class = "seemore">
+                          <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>See More</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="choose">
+                  <ul class="nav nav-pills nav-justified">
+                    {{#if isFavourited}}
+                    <li><div class = "unfav"> <a href=""><i class="fa fa-plus-square"></i>Unfavourite</a></div></li>
+                    {{else}}
+                    <li><div class = "fav"> <a href=""><i class="fa fa-plus-square"></i>Favourite</a></div></li>
+                    {{/if}}
+                    {{#if isWantToTry}}
+                    <li><div class = "unwant"><a href=""><i class="fa fa-plus-square"></i>Un-Want To Try</a></div></li>
+                    {{else}}
+                    <li><div class = "want"> <a href=""><i class="fa fa-plus-square"></i>Want To Try</a></div></li>
+                    {{/if}}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            {{/each}}
+          </div><!--features_items-->
+
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+
+<template name="carousel_wanttotry">
+  <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+    {{> wanttotryItems}}
+  </div>
+</template>
+
+<template name="wanttotryItems">
+  <div class="carousel-inner">
+    {{#each wanttotryItem}}
+      <div data-frame = {{@index}} class="item active">
+        <div class="col-sm-4">
+          <div class="product-image-wrapper">
+            <div class="single-products">
+              <div class="productinfo text-center">
+                <img src= "{{pic}}" alt="{{name}}"/>
+                <h2>{{price}}</h2>
+                <p>{{name}}</p>
+                <div class = "cart">
+                  <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</template>
+
+<template name="carousel_favourite">
+  <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+    {{> favouriteItems}}
+  </div>
+</template>
+
+<template name="favouriteItems">
+  <div class="carousel-inner" role="listbox">
+    {{#each favouriteItem}}
+      <div class="item active">
+        <div class="col-sm-4">
+          <div class="product-image-wrapper">
+            <div class="single-products">
+              <div class="productinfo text-center">
+                <img src= "{{pic}}" alt="{{name}}"/>
+                <h2>{{price}}</h2>
+                <p>{{name}}</p>
+                <div class = "cart">
+                  <a href="" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</template>
+
+<template name="indivDish">
+  {{#with dish}}
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+            <div class="blog-post-area">
+              <h2 class="title text-center">Dish Details</h2>
+
+              <div class="single-blog-post">
+                <h3>{{name}}</h3>
+                <div class="post-meta">
+                  <ul>
+                    <li><i class="fa fa-user"></i>Restaurant</li>
+                    <li><i class="fa fa-clock-o"></i> 1:33 pm</li>
+                    <li><i class="fa fa-calendar"></i> DEC 5, 2013</li>
+                  </ul>
+                </div>
+                
+                  <img src="{{pic}}" alt="{{name}}">
+                  <br>
+                  <br>
+                <h4 class="media-heading">Dish Description</h4>
+                <p>{{description}}</p> 
+              </div>
+              <div class = "carting"> <div class="btn btn-default">Add To Cart</div></div>
+            </div><!--/blog-post-area-->
+
+            <div class="media comments">
+              <div class="media-body">
+                <h4 class="media-heading">My Comments</h4>
+                <div id="adduserdata">
+                  {{#with commentDish}}
+                        {{#each comments}}
+                        <ul>
+                          <li class = "comment {{selectedClass}}"> {{this}} </li>
+                        </ul>
+                        {{/each}}
+                  {{/with}}
+                </div>
+
+                <div class="col-sm-20">
+                  <div class="text-area">
+                    <label for="comments" class="col-xs-30 col-form-label">Add New Comment Here</label>
+                    <div class="col-xs-30">
+                    <form class = "commenting">
+                      <input class = "form-control" type ="text" name = "comment" placeholder="Type comment here">
+                      <button type="submit" class="btn btn-default get">Post</button>
+                      </form> 
+                      </div>
+                      {{#if selectedComment}}
+                          <button class="remove btn btn-default get">Remove Comment</button>
+                      {{/if}}                       
+                  </div>
+                </div>
+                <br>
+                <br>
+
+              </div><!--Comments-->
+            </div>  
+          </div>
+        </div>
+      </div>
+    </section>
+  {{/with}}
+</template>
+
+
+<template name = "footer">
+  <footer id="footer"><!--Footer-->
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div>
+            <div class="companyinfo">
+              <h2><span>done</span> by</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-widget">
+      <div class="container">
+        <div class="row">
+          <div class = "col-sm-3">
+            <div class="single-widget">
+              <ul class="nav nav-pills nav-stacked">
+                <li>Jin Dong Yang (A0139883M)</li>
+                <li>Mark Jeremiah Robert (A0139727U)</li>
+                <li>Leng Kenn Siang (A0139696J)</li>
+                <li>Benjamin Loo (A0139524A)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-3 col-sm-offset-1">
+            <div class="single-widget">
+              <h2>About FoodMark</h2>
+              <form action="" class="searchform">
+                <input type="text" placeholder="Your phone number" />
+                <button type="submit" class="btn btn-default"><i class="fa fa-arrow-circle-o-right"></i></button>
+                <p>Get to know about cool people like us! :)</p>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+      </div>
+    </div>
+    </footer>
+</template>

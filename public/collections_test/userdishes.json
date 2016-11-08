@@ -1,0 +1,2218 @@
+{ 
+    "_id" : "htEHH3wEBvoKq5c24", 
+    "customerID" : "Kenn", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de54fe3720b1920059192"), 
+    "customerID" : "Kenn", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de550e3720b1920059193"), 
+    "customerID" : "Kenn", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de550e3720b1920059194"), 
+    "customerID" : "Kenn", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de551e3720b1920059195"), 
+    "customerID" : "Kenn", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de552e3720b1920059196"), 
+    "customerID" : "Kenn", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de552e3720b1920059197"), 
+    "customerID" : "Kenn", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de553e3720b1920059198"), 
+    "customerID" : "Kenn", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de554e3720b1920059199"), 
+    "customerID" : "Kenn", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de558e3720b192005919a"), 
+    "customerID" : "Kenn", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de61ae3720b192005919b"), 
+    "customerID" : "Dong", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+        "Too spicy!", 
+        "Too dry"
+    ], 
+    "wantToTry" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("581de61ae3720b192005919c"), 
+    "customerID" : "Dong", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ], 
+    "wantToTry" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("581de61ae3720b192005919d"), 
+    "customerID" : "Dong", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+        "Too salty", 
+        "Too spcy"
+    ], 
+    "wantToTry" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("581de61ae3720b192005919e"), 
+    "customerID" : "Dong", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de61ae3720b192005919f"), 
+    "customerID" : "Dong", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de61ae3720b19200591a0"), 
+    "customerID" : "Dong", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de61ae3720b19200591a1"), 
+    "customerID" : "Dong", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+        "Too lemony"
+    ]
+}
+{ 
+    "_id" : ObjectId("581de61ae3720b19200591a2"), 
+    "customerID" : "Dong", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de61ae3720b19200591a3"), 
+    "customerID" : "Dong", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de61ae3720b19200591a4"), 
+    "customerID" : "Dong", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de662e3720b19200591a5"), 
+    "customerID" : "Mark", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ], 
+    "wantToTry" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("581de662e3720b19200591a6"), 
+    "customerID" : "Mark", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ], 
+    "wantToTry" : NumberInt(1)
+}
+{ 
+    "_id" : "fWQhKHgReP9NnNNBv", 
+    "name" : "Tandori Chicken", 
+    "triedcounter" : NumberInt(1), 
+    "wantToTry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "comments" : [
+
+    ], 
+    "customerID" : "foodmark"
+}
+{ 
+    "_id" : ObjectId("581de662e3720b19200591a7"), 
+    "customerID" : "Mark", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de662e3720b19200591a8"), 
+    "customerID" : "Mark", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de662e3720b19200591a9"), 
+    "customerID" : "Mark", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de662e3720b19200591aa"), 
+    "customerID" : "Mark", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de662e3720b19200591ab"), 
+    "customerID" : "Mark", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de662e3720b19200591ac"), 
+    "customerID" : "Mark", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de662e3720b19200591ad"), 
+    "customerID" : "Mark", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de662e3720b19200591ae"), 
+    "customerID" : "Mark", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de673e3720b19200591af"), 
+    "customerID" : "Ben", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de673e3720b19200591b0"), 
+    "customerID" : "Ben", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de673e3720b19200591b1"), 
+    "customerID" : "Ben", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de673e3720b19200591b2"), 
+    "customerID" : "Ben", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de673e3720b19200591b3"), 
+    "customerID" : "Ben", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de673e3720b19200591b4"), 
+    "customerID" : "Ben", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de673e3720b19200591b5"), 
+    "customerID" : "Ben", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de673e3720b19200591b6"), 
+    "customerID" : "Ben", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de673e3720b19200591b7"), 
+    "customerID" : "Ben", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581de673e3720b19200591b8"), 
+    "customerID" : "Ben", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591b9"), 
+    "customerID" : "Kenn Siang", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591ba"), 
+    "customerID" : "Kenn Siang", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591bb"), 
+    "customerID" : "Kenn Siang", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591bc"), 
+    "customerID" : "Kenn Siang", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591bd"), 
+    "customerID" : "Kenn Siang", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591be"), 
+    "customerID" : "Kenn Siang", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591bf"), 
+    "customerID" : "Kenn Siang", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591c0"), 
+    "customerID" : "Kenn Siang", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591c1"), 
+    "customerID" : "Kenn Siang", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591c2"), 
+    "customerID" : "Kenn Siang", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591c3"), 
+    "customerID" : "Dong Yang", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591c4"), 
+    "customerID" : "Dong Yang", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591c5"), 
+    "customerID" : "Dong Yang", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591c6"), 
+    "customerID" : "Dong Yang", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591c7"), 
+    "customerID" : "Dong Yang", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591c8"), 
+    "customerID" : "Dong Yang", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591c9"), 
+    "customerID" : "Dong Yang", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591ca"), 
+    "customerID" : "Dong Yang", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591cb"), 
+    "customerID" : "Dong Yang", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591cc"), 
+    "customerID" : "Dong Yang", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591cd"), 
+    "customerID" : "Mark Jer", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591ce"), 
+    "customerID" : "Mark Jer", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591cf"), 
+    "customerID" : "Mark Jer", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591d0"), 
+    "customerID" : "Mark Jer", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591d1"), 
+    "customerID" : "Mark Jer", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591d2"), 
+    "customerID" : "Mark Jer", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591d3"), 
+    "customerID" : "Mark Jer", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591d4"), 
+    "customerID" : "Mark Jer", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591d5"), 
+    "customerID" : "Mark Jer", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591d6"), 
+    "customerID" : "Mark Jer", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591d7"), 
+    "customerID" : "Ben Loo", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591d8"), 
+    "customerID" : "Ben Loo", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591d9"), 
+    "customerID" : "Ben Loo", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591da"), 
+    "customerID" : "Ben Loo", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591db"), 
+    "customerID" : "Ben Loo", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591dc"), 
+    "customerID" : "Ben Loo", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591dd"), 
+    "customerID" : "Ben Loo", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591de"), 
+    "customerID" : "Ben Loo", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591df"), 
+    "customerID" : "Ben Loo", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defdfe3720b19200591e0"), 
+    "customerID" : "Ben Loo", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591e1"), 
+    "customerID" : "Leng", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591e2"), 
+    "customerID" : "Leng", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591e3"), 
+    "customerID" : "Leng", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591e4"), 
+    "customerID" : "Leng", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591e5"), 
+    "customerID" : "Leng", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591e6"), 
+    "customerID" : "Leng", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591e7"), 
+    "customerID" : "Leng", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591e8"), 
+    "customerID" : "Leng", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591e9"), 
+    "customerID" : "Leng", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591ea"), 
+    "customerID" : "Leng", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591eb"), 
+    "customerID" : "Jin", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591ec"), 
+    "customerID" : "Jin", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591ed"), 
+    "customerID" : "Jin", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591ee"), 
+    "customerID" : "Jin", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591ef"), 
+    "customerID" : "Jin", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591f0"), 
+    "customerID" : "Jin", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591f1"), 
+    "customerID" : "Jin", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591f2"), 
+    "customerID" : "Jin", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591f3"), 
+    "customerID" : "Jin", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591f4"), 
+    "customerID" : "Jin", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591f5"), 
+    "customerID" : "Mark2", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591f6"), 
+    "customerID" : "Mark2", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591f7"), 
+    "customerID" : "Mark2", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591f8"), 
+    "customerID" : "Mark2", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591f9"), 
+    "customerID" : "Mark2", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591fa"), 
+    "customerID" : "Mark2", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591fb"), 
+    "customerID" : "Mark2", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591fc"), 
+    "customerID" : "Mark2", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591fd"), 
+    "customerID" : "Mark2", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591fe"), 
+    "customerID" : "Mark2", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b19200591ff"), 
+    "customerID" : "Benny", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(0), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b1920059200"), 
+    "customerID" : "Benny", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b1920059201"), 
+    "customerID" : "Benny", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b1920059202"), 
+    "customerID" : "Benny", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b1920059203"), 
+    "customerID" : "Benny", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b1920059204"), 
+    "customerID" : "Benny", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b1920059205"), 
+    "customerID" : "Benny", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b1920059206"), 
+    "customerID" : "Benny", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b1920059207"), 
+    "customerID" : "Benny", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe1e3720b1920059208"), 
+    "customerID" : "Benny", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059209"), 
+    "customerID" : "Kenny", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(0), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005920a"), 
+    "customerID" : "Kenny", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005920b"), 
+    "customerID" : "Kenny", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005920c"), 
+    "customerID" : "Kenny", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005920d"), 
+    "customerID" : "Kenny", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005920e"), 
+    "customerID" : "Kenny", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005920f"), 
+    "customerID" : "Kenny", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(0), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059210"), 
+    "customerID" : "Kenny", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059211"), 
+    "customerID" : "Kenny", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059212"), 
+    "customerID" : "Kenny", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059213"), 
+    "customerID" : "Dongy", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059214"), 
+    "customerID" : "Dongy", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059215"), 
+    "customerID" : "Dongy", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059216"), 
+    "customerID" : "Dongy", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059217"), 
+    "customerID" : "Dongy", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059218"), 
+    "customerID" : "Dongy", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059219"), 
+    "customerID" : "Dongy", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005921a"), 
+    "customerID" : "Dongy", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005921b"), 
+    "customerID" : "Dongy", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(0), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005921c"), 
+    "customerID" : "Dongy", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005921d"), 
+    "customerID" : "Marky", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005921e"), 
+    "customerID" : "Marky", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005921f"), 
+    "customerID" : "Marky", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059220"), 
+    "customerID" : "Marky", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059221"), 
+    "customerID" : "Marky", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059222"), 
+    "customerID" : "Marky", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059223"), 
+    "customerID" : "Marky", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059224"), 
+    "customerID" : "Marky", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059225"), 
+    "customerID" : "Marky", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059226"), 
+    "customerID" : "Marky", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059227"), 
+    "customerID" : "Bennie", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059228"), 
+    "customerID" : "Bennie", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059229"), 
+    "customerID" : "Bennie", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005922a"), 
+    "customerID" : "Bennie", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005922b"), 
+    "customerID" : "Bennie", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005922c"), 
+    "customerID" : "Bennie", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005922d"), 
+    "customerID" : "Bennie", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005922e"), 
+    "customerID" : "Bennie", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b192005922f"), 
+    "customerID" : "Bennie", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe2e3720b1920059230"), 
+    "customerID" : "Bennie", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(0), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059231"), 
+    "customerID" : "Kennloo", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059232"), 
+    "customerID" : "Kennloo", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059233"), 
+    "customerID" : "Kennloo", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059234"), 
+    "customerID" : "Kennloo", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059235"), 
+    "customerID" : "Kennloo", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059236"), 
+    "customerID" : "Kennloo", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059237"), 
+    "customerID" : "Kennloo", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(0), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059238"), 
+    "customerID" : "Kennloo", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059239"), 
+    "customerID" : "Kennloo", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005923a"), 
+    "customerID" : "Kennloo", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005923b"), 
+    "customerID" : "Dongyi", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005923c"), 
+    "customerID" : "Dongyi", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005923d"), 
+    "customerID" : "Dongyi", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005923e"), 
+    "customerID" : "Dongyi", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005923f"), 
+    "customerID" : "Dongyi", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059240"), 
+    "customerID" : "Dongyi", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059241"), 
+    "customerID" : "Dongyi", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059242"), 
+    "customerID" : "Dongyi", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059243"), 
+    "customerID" : "Dongyi", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059244"), 
+    "customerID" : "Dongyi", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059245"), 
+    "customerID" : "Markii", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059246"), 
+    "customerID" : "Markii", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059247"), 
+    "customerID" : "Markii", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(1), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059248"), 
+    "customerID" : "Markii", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059249"), 
+    "customerID" : "Markii", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(0), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005924a"), 
+    "customerID" : "Markii", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005924b"), 
+    "customerID" : "Markii", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005924c"), 
+    "customerID" : "Markii", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(5), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005924d"), 
+    "customerID" : "Markii", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005924e"), 
+    "customerID" : "Markii", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b192005924f"), 
+    "customerID" : "Benji", 
+    "name" : "Tandori Chicken", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059250"), 
+    "customerID" : "Benji", 
+    "name" : "Kimchi Fried Rice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059251"), 
+    "customerID" : "Benji", 
+    "name" : "Fried Beancurd", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(6), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059252"), 
+    "customerID" : "Benji", 
+    "name" : "Carrot Cake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059253"), 
+    "customerID" : "Benji", 
+    "name" : "Wagyu Beef", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059254"), 
+    "customerID" : "Benji", 
+    "name" : "Chocolate Shake", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(4), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059255"), 
+    "customerID" : "Benji", 
+    "name" : "Pink Lemonade", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(1), 
+    "triedcounter" : NumberInt(3), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059256"), 
+    "customerID" : "Benji", 
+    "name" : "Red Velvet Cupcake", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(2), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059257"), 
+    "customerID" : "Benji", 
+    "name" : "Caramel Pie Slice", 
+    "wanttotry" : NumberInt(0), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(7), 
+    "comments" : [
+
+    ]
+}
+{ 
+    "_id" : ObjectId("581defe3e3720b1920059258"), 
+    "customerID" : "Benji", 
+    "name" : "Lemon Cake Slice", 
+    "wanttotry" : NumberInt(1), 
+    "favourite" : NumberInt(0), 
+    "triedcounter" : NumberInt(0), 
+    "comments" : [
+
+    ]
+}
