@@ -2,6 +2,10 @@ import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
+Meteor.startup(function() {
+	Session.set('login', false);
+	Session.set('user', '');
+});
 
 Template.loginForm.events({
 	'submit form': function(event){
@@ -10,39 +14,66 @@ Template.loginForm.events({
 	    var username = event.target.Username.value;
 	    var password = event.target.Password.value;
 
-	    Meteor.call('logIn', username, password);
+
+	    if (Session.get('login') == false){
+	    	if (Users.findOne({username: username, password: password})){
+		    	Session.set('user', username);
+		    	Session.set('login', true);
+		    	if (Users.findOne({username: username, type: 'Admin'})){
+		    		Bert.alert("Login Successful! Welcome Adminstrator!", "success", "fixed-top", "fa-smile-o");
+		    	}else{
+		    		Bert.alert("Login Successful! Welcome "+username+"!", "success", "fixed-top", "fa-smile-o");
+		    	};
+		    }else{
+		    	Bert.alert("No such user!", 'warning', 'growl-top-right');
+		    };
+	    }else{
+	    	Bert.alert("Please log out first!", 'warning', 'growl-top-right')
+	    }
 	},
 
 });
 
 Template.top.helpers({
 	isAdmin: function(){
-		return Users.findOne({type: 'admin', login: true});
+		var username = Session.get('user');
+		return Users.findOne({username: username, type: 'admin'});
 	},
 
 	isMember: function(){
-		return Users.findOne({type: 'member', login: true});
+		var username = Session.get('user');
+		return Users.findOne({username: username, type: 'member'});
 	},
 
 	isLogout: function(){
-		if (Users.findOne({login: true})){
+		if (Session.get('login')){
 			return false;
 		}else{
 			return true;
-		};
+		}
 	},
 
 	isLogin: function(){
-		return Users.findOne({login: true});
+		return Session.get('login');
 	},
 
 	isCustomer: function(){
-		if (Users.findOne({type: 'admin', login: true})){
-			return false;
+		var username = Session.get('user');
+		if (Session.get('login')){
+			if (Users.findOne({type: 'admin', username: username})){
+				return false;
+			}else{
+				return true;
+			};
 		}else{
-			return true;
+			return false;
 		};
+		
 	},
+
+	username: function(){
+		return Session.get('user');
+	}
 
 });
 
@@ -56,7 +87,8 @@ Template.top.events({
 	},
 
 	'click .logout': function(){
-		Meteor.call('logOut');
+		Session.set('login', false);
+		Session.set('user', '');
 		FlowRouter.go('/');
 		Bert.alert({
 			icon: "fa-frown-o",
@@ -71,24 +103,23 @@ Template.top.events({
 Template.dashboard.helpers({
 
 	isAdmin: function(){
-		return Users.findOne({type: 'admin', login: true});
+		var username = Session.get('user');
+		return Users.findOne({username: username, type: 'admin'});
 	},
 
 	isMember: function(){
-		return Users.findOne({type: 'member', login: true});
+		var username = Session.get('user');
+		return Users.findOne({username: username, type: 'member'});
 	},
 
 	isLogout: function(){
-		if (Users.findOne({login: true})){
-			return false;
-		}else{
-			return true;
-		};
+		return Session.get('login');
 	},
 
 	isLogin: function(){
-		return Users.findOne({login: true});
+		return Session.get('login');
 	},
+
 
 });
 
@@ -159,7 +190,8 @@ Template.admin_dashboard.events({
 
 Template.carousel_wanttotry.helpers({
      wanttotryItem: function(){
-    	var user = Users.findOne({login:true});
+     	var username = Session.get('user');
+    	var user = Users.findOne({username: username});
       	var userdishes = UserDishes.find({customerID: user.username, wanttotry: 1}, {sort: {name: 1}}).fetch();
       	var distinctdishes = _.uniq(userdishes, false, function(d){return d.name});
       	var distinctValues = _.pluck(distinctdishes, 'name');
@@ -169,7 +201,8 @@ Template.carousel_wanttotry.helpers({
 
 Template.wanttotryItems.helpers({
     wanttotryItem: function(){
-    	var user = Users.findOne({login:true});
+    	var username = Session.get('user');
+    	var user = Users.findOne({username: username});
       	var userdishes = UserDishes.find({customerID: user.username, wanttotry: 1}, {sort: {name: 1}}).fetch();
       	var distinctdishes = _.uniq(userdishes, false, function(d){return d.name});
       	var distinctValues = _.pluck(distinctdishes, 'name');
@@ -196,7 +229,8 @@ Template.wanttotryItems.events({
 
 Template.carousel_favourite.helpers({
      favouriteItem: function(){
-    	var user = Users.findOne({login:true});
+     	var username = Session.get('user');
+    	var user = Users.findOne({username: username});
       	var userdishes = UserDishes.find({customerID: user.username, favourite: 1}, {sort: {name: 1}}).fetch();
       	var distinctdishes = _.uniq(userdishes, false, function(d){return d.name});
       	var distinctValues = _.pluck(distinctdishes, 'name');
@@ -207,7 +241,8 @@ Template.carousel_favourite.helpers({
 
 Template.favouriteItems.helpers({
     favouriteItem: function(){
-    	var user = Users.findOne({login:true});
+    	var username = Session.get('user');
+    	var user = Users.findOne({username: username});
       	var userdishes = UserDishes.find({customerID: user.username, favourite: 1}, {sort: {name: 1}}).fetch();
       	var distinctdishes = _.uniq(userdishes, false, function(d){return d.name});
       	var distinctValues = _.pluck(distinctdishes, 'name');
@@ -238,19 +273,22 @@ Template.foodMenu.helpers({
 
 	isFavourited: function(){
 		var dishName = this.name;
-		var user = Users.findOne({login:true});
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
 		return UserDishes.findOne({customerID: user.username, name: dishName, favourite: 1});
 	},
 
 	isWantToTry: function(){
 		var dishName = this.name;
-		var user = Users.findOne({login:true});
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
 		return UserDishes.findOne({customerID: user.username, name: dishName, wanttotry: 1});
 	},
 
 	isTried: function(){
 		var dishName = this.name;
-		var user = Users.findOne({login:true});
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
 		return UserDishes.findOne({customerID: user.username, name: dishName, triedcounter: {$gt: 0}});
 	},
 });
@@ -262,22 +300,26 @@ Template.foodMenu.events({
 
 	'click .fav': function(){
 		var dishName = this.name;
-		Meteor.call('addFav', dishName);
+		var username = Session.get('user');
+		Meteor.call('addFav', dishName, username);
 	},
 
 	'click .unfav': function(){
 		var dishName = this.name;
-		Meteor.call('removeFav', dishName);
+		var username = Session.get('user');
+		Meteor.call('removeFav', dishName, username);
 	},
 
 	'click .want': function(){
 		var dishName = this.name;
-		Meteor.call('addWant', dishName);
+		var username = Session.get('user');
+		Meteor.call('addWant', dishName, username);
 	},
 
 	'click .unwant':function(){
 		var dishName = this.name;
-		Meteor.call('removeWant', dishName);
+		var username = Session.get('user');
+		Meteor.call('removeWant', dishName, username);
 	},
 
 	'click .seemore': function(){
@@ -297,19 +339,22 @@ Template.drinksMenu.helpers({
 
 	isFavourited: function(){
 		var dishName = this.name;
-		var user = Users.findOne({login:true});
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
 		return UserDishes.findOne({customerID: user.username, name: dishName, favourite: 1});
 	},
 
 	isWantToTry: function(){
 		var dishName = this.name;
-		var user = Users.findOne({login:true});
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
 		return UserDishes.findOne({customerID: user.username, name: dishName, wanttotry: 1});
 	},
 
 	isTried: function(){
 		var dishName = this.name;
-		var user = Users.findOne({login:true});
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
 		return UserDishes.findOne({customerID: user.username, name: dishName, triedcounter: {$gt: 0}});
 	},
 });
@@ -321,23 +366,26 @@ Template.drinksMenu.events({
 
 	'click .fav': function(){
 		var dishName = this.name;
-		Meteor.call('addFav', dishName);
+		var username = Session.get('user');
+		Meteor.call('addFav', dishName, username);
 	},
 
 	'click .unfav': function(){
 		var dishName = this.name;
-		console.log(dishName);
-		Meteor.call('removeFav', dishName);
+		var username = Session.get('user');
+		Meteor.call('removeFav', dishName, username);
 	},
 
 	'click .want': function(){
 		var dishName = this.name;
-		Meteor.call('addWant', dishName);
+		var username = Session.get('user');
+		Meteor.call('addWant', dishName, username);
 	},
 
 	'click .unwant':function(){
 		var dishName = this.name;
-		Meteor.call('removeWant', dishName);
+		var username = Session.get('user');
+		Meteor.call('removeWant', dishName, username);
 	},
 	'click .seemore': function(){
 		var dishName = this.name;
@@ -357,19 +405,22 @@ Template.dessertsMenu.helpers({
 
 	isFavourited: function(){
 		var dishName = this.name;
-		var user = Users.findOne({login:true});
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
 		return UserDishes.findOne({customerID: user.username, name: dishName, favourite: 1});
 	},
 
 	isWantToTry: function(){
 		var dishName = this.name;
-		var user = Users.findOne({login:true});
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
 		return UserDishes.findOne({customerID: user.username, name: dishName, wanttotry: 1});
 	},
 
 	isTried: function(){
 		var dishName = this.name;
-		var user = Users.findOne({login:true});
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
 		return UserDishes.findOne({customerID: user.username, name: dishName, triedcounter: {$gt: 0}});
 	},
 });
@@ -381,23 +432,26 @@ Template.dessertsMenu.events({
 
 	'click .fav': function(){
 		var dishName = this.name;
-		Meteor.call('addFav', dishName);
+		var username = Session.get('user');
+		Meteor.call('addFav', dishName, username);
 	},
 
 	'click .unfav': function(){
 		var dishName = this.name;
-		console.log(dishName);
-		Meteor.call('removeFav', dishName);
+		var username = Session.get('user');
+		Meteor.call('removeFav', dishName, username);
 	},
 
 	'click .want': function(){
 		var dishName = this.name;
-		Meteor.call('addWant', dishName);
+		var username = Session.get('user');
+		Meteor.call('addWant', dishName, username);
 	},
 
 	'click .unwant':function(){
 		var dishName = this.name;
-		Meteor.call('removeWant', dishName);
+		var username = Session.get('user');
+		Meteor.call('removeWant', dishName, username);
 	},
 
 	'click .seemore': function(){
@@ -418,13 +472,15 @@ Template.indivDish.helpers({
 
 	commentDish: function(){
 		var dishName = this.name;
-		var user = Users.findOne({login:true});
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
 		return UserDishes.findOne({name: dishName, customerID: user.username})
 	},
 
 	selectedComment: function(){
 		var comment = Session.get('comment');
-		var user = Users.findOne({login: true});
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
 		var dishName = FlowRouter.getParam('dishId');
 
 		return UserDishes.findOne({customerID: user.username, name: dishName, comments: comment})
@@ -453,7 +509,8 @@ Template.indivDish.events({
 
 	    var comment = event.target.comment.value;
 	    var dishName = FlowRouter.getParam('dishId');
-	    Meteor.call('addComment', comment, dishName);
+	    var username = Session.get('user');
+	    Meteor.call('addComment', comment, dishName, username);
 
 	    // Clear form
     	event.target.comment.value = '';
@@ -471,8 +528,9 @@ Template.indivDish.events({
 	'click .remove': function(){
 		var comment = Session.get('comment');
 		var dishName = FlowRouter.getParam('dishId');
-		var user = Users.findOne({login: true});
-		Meteor.call('removeComment', comment, dishName);
+		var username = Session.get('user');
+		var user = Users.findOne({username: username});
+		Meteor.call('removeComment', comment, dishName, username);
 	}
 });
 
